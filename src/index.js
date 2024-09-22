@@ -1,4 +1,4 @@
 import "./styles.css";
-import {greeting} from "./greeting.js";
+import {landing} from "./landing.js";
 
-console.log(greeting);
+console.log(landing);
