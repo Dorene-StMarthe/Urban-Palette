@@ -1,7 +1,7 @@
 
 # Urban-Palette
 
-
+This is a resturant app, inspired by Caribbean Cuisine. I explored webpacks with this project and tried my hand at recreating a sleek design. 
 
 ## Author
 
