@@ -1,55 +1,165 @@
-
+/* General Styles for Body and Background */
 body, html {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8) ),url("https://images.unsplash.com/photo-1724426057815-a12b34f027c1?q=80&w=1116&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.8)
+      ),
+      url("https://images.unsplash.com/photo-1724426057815-a12b34f027c1?q=80&w=1116&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-repeat: no-repeat;
-    height: 100%;
     background-position: center;
     background-size: cover;
+    height: 100vh;
     margin: 0;
-}
-header{
+    overflow: hidden;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  /* Sticky Header for Navigation */
+  header {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-}
-
-nav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Navigation Styles */
+  nav {
     display: flex;
     gap: 10px;
-    background-color: transparent;
-    float: right;
-    
-}
-button {
-    text-align: center;
-    padding: 14px 16px;
+    margin-left: auto;
+  }
+  
+  button {
+    padding: 17px 16px;
     font-size: 17px;
     background-color: transparent;
     color: white;
-    text-decoration: none;
     border: none;
     cursor: pointer;
-}
-button.active {
-    color: rgb(241, 211, 120);
-}
-#content {
-    color:aliceblue;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: color 0.3s ease;
+  }
+  
+  button.active {
+    color: #f1d378;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    color: #f1d378;
+  }
+  
+  /* Content Section - Positioned in Center */
+  #content {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-}
-.name { 
-    font-size: 85px;
-}
-.mainText {
-    font-family: cursive;
-    font-size:30px;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 600px;
+    color: aliceblue;
+    text-align: center;
+  }
+  
+  /* Menu Container with Scrollable Area */
+  .menuContainer {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    max-height: 600px;
+    overflow-y: auto;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    scrollbar-width: thin;
+    scrollbar-color: #ff6600 rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Custom Scrollbar for WebKit Browsers */
+  .menuContainer::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .menuContainer::-webkit-scrollbar-thumb {
+    background-color: #ff6600;
+    border-radius: 8px;
+  }
+  
+  .menuContainer::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Menu Section Styles */
+  .menu-section {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  .menu-section h2 {
+    font-size: 1.5rem;
     color: rgb(241, 211, 120);
-}
-.subText {
+    border-bottom: 2px solid #ff6600;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+  }
+  
+  /* Menu Item Layout */
+  .menu-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .menu-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Image Styling */
+  .menu-item-image {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  /* Text Styling */
+  .menu-item-text {
+    font-size: 1.2rem;
+    color: white;
+  }
+  
+  .mainText{
+    font-family: cursive;
+    font-size: 30px;
+    color: rgb(241, 211, 120);
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .name {
+    font-size: 85px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .subText {
     font-size: 15px;
-}
+    margin-top: 20px;
+    max-width: 700px;
+    text-align: left;
+    line-height: 1.5;
+  }
+  .menuText {
+    font-family: cursive;
+    font-size: 30px;
+    color: rgb(241, 211, 120);
+    margin-bottom: 40px;
+    text-align: center;
+  }
