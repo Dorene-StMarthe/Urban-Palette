@@ -23,6 +23,8 @@ export default function home() {
       'Step into our modern, chic space and let us take you on a journey of culinary creativity, where every meal is a new brushstroke on your palate. From our signature dishes to seasonal specialties, Urban Palette is your destination for delicious innovation.';
     content.appendChild(subText);
   }
+
+  
   
 
 

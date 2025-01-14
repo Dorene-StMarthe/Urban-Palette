@@ -18,12 +18,12 @@ export default function menu() {
       {
         name: 'Grilled Snapper with Mango Salsa',
         price: 22,
-        image: 'https://via.placeholder.com/80?text=Snapper',
+        image: 'https://media.istockphoto.com/id/1290616097/photo/grilled-sea-bream-or-dorado-raw-fish-on-black-plate-with-braised-leeks-over-textured-black.jpg?s=612x612&w=0&k=20&c=goZF2-wdQaZPeLPJ8pUNri8EkT1SjEnLEO0OGz5KOtI=',
       },
       {
         name: 'Jerk Chicken with Rice & Peas',
         price: 18,
-        image: 'https://via.placeholder.com/80?text=Jerk+Chicken',
+        image: 'https://media.istockphoto.com/id/538643574/photo/spicy-grilled-jerk-chicken.jpg?s=612x612&w=0&k=20&c=A5bzNuietYkn1suqd83hm4YVNRdl5xLWYNmQ4sv_5x0=',
       },
     ]);
   
@@ -31,12 +31,12 @@ export default function menu() {
       {
         name: 'Rum Cake with Vanilla Ice Cream',
         price: 8,
-        image: 'https://via.placeholder.com/80?text=Rum+Cake',
+        image: 'https://media.istockphoto.com/id/1445837651/photo/cake-coffee-on-a-black-plate-on-the-christmas-table-for-the-new-year-close-up.jpg?s=612x612&w=0&k=20&c=EWz8ajpg_JY8pJNxllcRwGlRA6CwK-dLqWhebuA42Ps=',
       },
       {
         name: 'Coconut Tart',
         price: 7,
-        image: 'https://via.placeholder.com/80?text=Coconut+Tart',
+        image: 'https://media.istockphoto.com/id/511473281/photo/avocado-and-cacao-mousse.jpg?s=612x612&w=0&k=20&c=rtOExxt9-342NgI_CR5JOgJZYvkPJmNEpc0OYqNnAsY=',
       },
     ]);
   
@@ -44,12 +44,12 @@ export default function menu() {
       {
         name: 'Sorrel Punch',
         price: 5,
-        image: 'https://via.placeholder.com/80?text=Sorrel+Punch',
+        image: 'https://media.istockphoto.com/id/1026457858/photo/christmas-punch-on-a-winter-table.jpg?s=612x612&w=0&k=20&c=ag-tzJ2zhguVGVNIlcdk7u3oGJClON1YZKs9CwlRDcU=',
       },
       {
         name: 'Rum Punch',
         price: 10,
-        image: 'https://via.placeholder.com/80?text=Rum+Punch',
+        image: 'https://media.istockphoto.com/id/1273315646/photo/a-glass-filled-with-mulled-wine-with-orange-slices.jpg?s=612x612&w=0&k=20&c=gH_tvQkuD1vAfF_BkUbljcWOj3An_5uhAsdWpuDzyCk=',
       },
     ]);
   }
