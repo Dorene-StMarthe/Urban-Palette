@@ -6,12 +6,11 @@ content.textContent = "";
 const contactText = document.createElement('div');
 contactText.classList.add('contactText');
 contactText.textContent = "Contact Us!";
-
 content.appendChild(contactText);
 
 const contactContainer = document.createElement('div');
-  contactContainer.classList.add('contactContainer');
-  content.appendChild(contactContainer);
+contactContainer.classList.add('contactContainer');
+content.appendChild(contactContainer);
 
   // Add contact details
   addContactDetail(contactContainer, 'Phone', '(123) 456-7890');
