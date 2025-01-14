@@ -1,7 +1,7 @@
 
 # Urban-Palette
 
-
+This is a resturant app, inspired by Caribbean Cuisine. I explored webpacks with this project and tried my hand at recreating a sleek design. 
 
 ## Author
 
@@ -23,6 +23,6 @@ https://dorene-stmarthe.github.io/Urban-Palette/
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img width="1512" alt="Screenshot 2024-10-12 at 11 21 38 PM" src="https://github.com/user-attachments/assets/c3723fdd-62fe-422d-9228-c700816b5be0">
 
-
+<img width="1512" alt="Screenshot 2024-10-12 at 11 22 01 PM" src="https://github.com/user-attachments/assets/f530d717-e31b-4ca8-97ea-b10bbb8b58f9">
