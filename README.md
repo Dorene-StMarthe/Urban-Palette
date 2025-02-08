@@ -23,5 +23,9 @@ https://dorene-stmarthe.github.io/Urban-Palette/
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img width="1512" alt="Screenshot 2024-10-12 at 11 21 38 PM" src="https://github.com/user-attachments/assets/c3723fdd-62fe-422d-9228-c700816b5be0">
+<img width="1511" alt="Screenshot 2025-02-08 at 1 43 59 PM" src="https://github.com/user-attachments/assets/d22fce73-7a97-420d-9534-c941eec0b6da" />
+<img width="1511" alt="Screenshot 2025-02-08 at 1 44 15 PM" src="https://github.com/user-attachments/assets/d0d568ea-14ed-4375-9020-2796314ef622" />
+
+
 
